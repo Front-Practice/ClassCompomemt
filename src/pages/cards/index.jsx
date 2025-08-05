@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import CardItem from '../../components/CardItem';
+import CardItem from '../../components/cardItem';
 import Modal from '../../components/modal'; 
 
 export default class CardsPage extends Component {
