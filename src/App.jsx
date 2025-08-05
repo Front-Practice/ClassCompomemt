@@ -9,10 +9,10 @@ export default class App extends Component {
   render() {
     return (
       <Routes>
-          <Route path="/" element={<DashboardLayout />}>
-            <Route index element={<HomePage />} />
-            <Route path="/cards" element={<CardsPage />} />
-            <Route path="*" element={<NotFound />} />
+          <Route path="/" element={<DashboardLayout/>}>
+            <Route index element={<HomePage/>} />
+            <Route path="/cards" element={<CardsPage/>} />
+            <Route path="*" element={<NotFound/>} />
           </Route>
         </Routes>
     );
